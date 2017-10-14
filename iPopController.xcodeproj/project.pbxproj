@@ -15,6 +15,7 @@
 		1494C48B1F9243C7000DD58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C48A1F9243C7000DD58B /* main.m */; };
 		1494C4951F9243C7000DD58B /* iPopControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C4941F9243C7000DD58B /* iPopControllerTests.m */; };
 		1494C4A01F9243C7000DD58B /* iPopControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C49F1F9243C7000DD58B /* iPopControllerUITests.m */; };
+		1494C4AF1F924479000DD58B /* iPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494C4AE1F924479000DD58B /* iPopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1494C49B1F9243C7000DD58B /* iPopControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPopControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1494C49F1F9243C7000DD58B /* iPopControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPopControllerUITests.m; sourceTree = "<group>"; };
 		1494C4A11F9243C7000DD58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1494C4AD1F924479000DD58B /* iPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPopViewController.h; sourceTree = "<group>"; };
+		1494C4AE1F924479000DD58B /* iPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1494C47C1F9243C7000DD58B /* AppDelegate.m */,
 				1494C47E1F9243C7000DD58B /* ViewController.h */,
 				1494C47F1F9243C7000DD58B /* ViewController.m */,
+				1494C4AD1F924479000DD58B /* iPopViewController.h */,
+				1494C4AE1F924479000DD58B /* iPopViewController.m */,
 				1494C4811F9243C7000DD58B /* Main.storyboard */,
 				1494C4841F9243C7000DD58B /* Assets.xcassets */,
 				1494C4861F9243C7000DD58B /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				1494C4801F9243C7000DD58B /* ViewController.m in Sources */,
 				1494C48B1F9243C7000DD58B /* main.m in Sources */,
+				1494C4AF1F924479000DD58B /* iPopViewController.m in Sources */,
 				1494C47D1F9243C7000DD58B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
